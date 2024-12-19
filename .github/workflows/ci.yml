@@ -1,0 +1,28 @@
+name: CI - Compile and Run C Program
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up GCC
+      - name: Install GCC
+        run: sudo apt-get update && sudo apt-get install -y gcc
+
+      # Step 3: Run the Bash Script
+      - name: Compile and Run C Program
+        run: |
+          chmod +x run_hello.sh
+          ./run_hello.sh
