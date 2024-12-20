@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc hello.c -o hello && ./hello
+gcc hello_world.c -o hello && ./hello
