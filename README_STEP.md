@@ -38,6 +38,11 @@
       - Установка
       - Использование
       - Лицензирование
+  
+
+![git_10](https://github.com/user-attachments/assets/ae93a1a5-9ba6-44b0-9337-55baf7486c48)
+
+
 6. Связать локальный репозиторий с github
 
 
@@ -58,5 +63,9 @@
 
 
 9. При отправке запустить CI/CD
+
+
+![git_9](https://github.com/user-attachments/assets/58e4bffa-2b2b-4f00-aca4-246772f9ab8d)
+
 
 
