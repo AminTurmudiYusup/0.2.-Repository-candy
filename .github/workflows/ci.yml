@@ -22,7 +22,9 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y gcc
 
       # Step 3: Run the Bash Script
-      - name: Compile and Run C Program
+      - name: Run the script
+        working-directory: ${{ github.workspace }}
         run: |
           chmod +x run_hello.sh
           ./run_hello.sh
+
