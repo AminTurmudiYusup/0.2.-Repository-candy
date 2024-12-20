@@ -1,3 +1,5 @@
+![Build Status](https://github.com/AminTurmudiYusup/0.2.-Repository-candy/actions/workflows/ci.yml/badge.svg)
+
 # Привет, мир с CI/CD
 
 ## О проекте
